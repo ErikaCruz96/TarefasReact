@@ -1,0 +1,35 @@
+#myForm{
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+}
+.inputText{
+    padding: 0 1rem;
+}
+.inputText input{
+    margin-left: 1rem;
+}
+button{
+    background-color: #2ccab0;
+    border: none;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #197a6a;
+}
+input[type = "radio"]{
+    padding: 0 3rem;
+}
+.result{
+    text-align: left;
+    margin-left: 3rem;
+}
+ul li{
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #414141;
+}
